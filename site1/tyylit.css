@@ -1,3 +1,7 @@
+:root {
+  --sininen: #00abf1; 
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* px vh vw % em rem */
@@ -20,4 +24,72 @@ article img {
 .logo {
     width: 320px;
     height: auto;
+}
+
+nav li {
+    display: inline;
+    margin-right: 16px;
+}
+
+nav ul {
+    padding-left: 0px;
+}
+
+nav a, nav a:visited, nav a:active {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    background-color: #00abf1;
+    background-color: var(--sininen); /* käytetään --sininen -muuttujan arvoa */
+    padding: 6px 16px 6px 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+footer {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 80px;
+}
+
+.text-content {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+h1 {
+    font-size: clamp(2rem, 4vw, 3rem);
+    color: rgb(50, 50, 50);
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.4em;
+}
+
+/* Koristeellinen aurinkoinen alaviiva */
+h1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60%;
+    height: 4px;
+    background: linear-gradient(
+        90deg,
+        #f6a623,
+        #ffd36a
+    );
+    border-radius: 999px;  
 }
