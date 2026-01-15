@@ -1,0 +1,21 @@
+h1 {
+    font-family: Impact;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(60, 60, 60);
+    margin-top: 36px;  
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(60, 60, 60);
+    margin-left: 36px;
+}
+
+/* a:visited = vierailtu    a:active = aktiivinen */
+a, a:visited, a:active {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: none;
+}
