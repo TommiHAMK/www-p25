@@ -7,12 +7,21 @@ body {
     /* px vh vw % em rem */
     font-size: 16px;
     color: rgb(50, 50, 50);
+    background-image: url(images/kreikka.jpg);
+    background-size: cover;
+    margin: 0;
 }
 
 .container {
     width: 900px;
     /* keskittää containerin selainnäkymässä */
-    margin: 16px auto 16px auto;
+    margin: 16px auto 0px auto;
+}
+
+
+article {
+    background-color: white;
+    padding-bottom: 36px;
 }
 
 article img {
