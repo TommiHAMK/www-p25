@@ -1,4 +1,27 @@
 body {
-    background-color: red;
+
 }
+
+.btn {
+    background-color: black;
+    color: white;
+    border-radius: 0;
+    transition: all .3s;
+}
+
+.btn:hover {
+    background-color: #2f2f2f;
+    color: white;
+    border-radius: 8px;
+}
+
+.bg-body-tertiary {
+    background-color: lightgray !important;
+}
+
+h1,h2,h3 {
+    font-family: "Sacramento", cursive;
+}
+
+
 
