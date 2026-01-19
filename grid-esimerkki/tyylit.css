@@ -4,3 +4,10 @@
     gap: 32px;
     justify-content: center;
 }
+
+@media (max-width: 600px) {
+   .cards {
+    /*display: block;*/
+    grid-template-columns: 1fr;
+   }
+}
